@@ -1,0 +1,58 @@
+USE EntrevistaSoloTalento;
+-- Crear tabla usuarios 
+CREATE TABLE Users(
+    UserID INT PRIMARY KEY,
+    Username VARCHAR (50),
+    Password VARCHAR (200),
+    IsManager BIT
+);
+-- Crear tabla Clientes
+CREATE TABLE Clients (
+    IDClient INT PRIMARY KEY,
+    Name VARCHAR(100),
+    LastName VARCHAR(100),
+    Direction VARCHAR(200),
+	UserID INT, 
+    FOREIGN KEY (UserID) REFERENCES Users(UserID)
+
+);
+
+-- Crear tabla Tienda
+CREATE TABLE Store (
+    IDStore INT PRIMARY KEY,
+    Direction VARCHAR(200)
+    Branch VARCHAR(100);
+);
+
+-- Crear tabla Articulos
+CREATE TABLE Products (
+    Code INT PRIMARY KEY,
+    Description VARCHAR(200),
+    Price DECIMAL(10,2),
+    Image VARCHAR(100),
+    Stock INT
+);
+
+-- Crear tabla Relacion_Articulo_Tienda
+CREATE TABLE StoreProducts (
+    StoreProductID INT PRIMARY KEY IDENTITY(1,1),
+    Product INT,
+    Store INT,
+    RegistrationDate DATE,
+    FOREIGN KEY (Product) REFERENCES Products(Code),
+    FOREIGN KEY (Store) REFERENCES Store(IDStore)
+);
+
+-- Crear tabla Relacion_Cliente_Articulo
+CREATE TABLE Sales (
+    SaleID INT PRIMARY KEY IDENTITY(1,1),
+    Client INT,
+    Product INT,
+    Date DATE,
+    Bought BIT,
+    FOREIGN KEY (Client) REFERENCES Clients(IDClient),
+    FOREIGN KEY (Product) REFERENCES Products(Code)
+    
+);
+
+
