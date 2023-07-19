@@ -11596,11 +11596,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Documents\\entrevistas 2023\\EntrevistaSoloTalentoBackend\\EntrevistaSoloTalentoBackend.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Documents\\entrevistas 2023\\Alejandro Gonzalez1\\EntrevistaSoloTalentoBackend\\EntrevistaSoloTalentoBackend.csproj",
       "projectName": "EntrevistaSoloTalentoBackend",
-      "projectPath": "C:\\Users\\hp\\Documents\\entrevistas 2023\\EntrevistaSoloTalentoBackend\\EntrevistaSoloTalentoBackend.csproj",
+      "projectPath": "C:\\Users\\hp\\Documents\\entrevistas 2023\\Alejandro Gonzalez1\\EntrevistaSoloTalentoBackend\\EntrevistaSoloTalentoBackend.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Documents\\entrevistas 2023\\EntrevistaSoloTalentoBackend\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Documents\\entrevistas 2023\\Alejandro Gonzalez1\\EntrevistaSoloTalentoBackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

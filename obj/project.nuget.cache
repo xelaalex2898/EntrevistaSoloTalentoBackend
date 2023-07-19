@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/X2hP3HfKLo+V/K734rqeAe7aeubRmuW7Ae1ECGOrhyIVgEHjJg6lfd+Vs2Ah1xcE84RYrc6/krGWzQPCPTH0Q==",
+  "dgSpecHash": "R5z22tyacpAPBrKmDi898N6lVLqjsvBkZiGYPDS9zibqz0B3mOy7T8d5US2RezW3OdmBbgzS/6d4M/OJeNxbzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Documents\\entrevistas 2023\\EntrevistaSoloTalentoBackend\\EntrevistaSoloTalentoBackend.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Documents\\entrevistas 2023\\Alejandro Gonzalez1\\EntrevistaSoloTalentoBackend\\EntrevistaSoloTalentoBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
